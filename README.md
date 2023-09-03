@@ -1,27 +1,37 @@
-# DailyNews
+# DailyNews - Aplicación de Noticias en Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.2.
+Esta es una aplicación de noticias desarrollada en Angular que te permite explorar noticias de diferentes partes del mundo utilizando la API de [newsApi](https://newsapi.org/). La aplicación te permite buscar noticias por categoría y país, y además utiliza componentes de Bootstrap y Bootswatch para ofrecer una experiencia de usuario atractiva y receptiva.
 
-## Development server
+## Descripción
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+La Aplicación de Noticias en Angular es una herramienta poderosa para mantenerte actualizado con las últimas noticias de todo el mundo. Puedes explorar noticias por categoría y país, y leer artículos detallados en un diseño moderno y fácil de usar.
 
-## Code scaffolding
+## Características Destacadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Explorar noticias de diversas fuentes en todo el mundo.
+- Filtrar noticias por categoría, como tecnología, deportes, negocios y más.
+- Seleccionar noticias específicas de un país determinado.
+- Ver artículos completos con imágenes, descripciones y enlaces a fuentes originales.
+- Interfaz de usuario atractiva y receptiva gracias a componentes de Bootstrap y estilos de Bootswatch.
+- Fácil navegación y experiencia de usuario intuitiva.
 
-## Build
+## Instalación y Uso
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Para utilizar la Aplicación de Noticias en Angular en tu máquina local, sigue estos pasos:
 
-## Running unit tests
+1. Clona este repositorio en tu máquina:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+   ```bash
+   git clone https://github.com/tuusuario/tuproyecto.git
+2. Accede al directorio del proyecto:
 
-## Running end-to-end tests
+   ```bash
+   cd tuproyecto
+3. Instala las dependencias:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   ```bash
+   npm install
+4. Inicia la aplicación:
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   ```bash
+   ng serve
